@@ -128,7 +128,13 @@
                     <i class="bi bi-grid"></i>
                     <span>Dashboard</span>
                 </a>
-            </li><!-- End Dashboard Nav -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="/config">
+                    <i class="bi bi-gear"></i>
+                    <span>Config</span>
+                </a>
+            </li>
 
 
 
@@ -140,7 +146,7 @@
     <main id="main" class="main">
 
         <div class="pagetitle card p-4">
-            <h1>Blank Page</h1>
+            <h1><?= $title; ?></h1>
 
         </div><!-- End Page Title -->
 
